@@ -14,6 +14,7 @@
 		C42AE2941E06116D00A50A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42AE2921E06116D00A50A0A /* LaunchScreen.storyboard */; };
 		C42AE29F1E06116E00A50A0A /* NSUserDefaultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AE29E1E06116E00A50A0A /* NSUserDefaultsTests.swift */; };
 		C42AE2AA1E06116E00A50A0A /* NSUserDefaultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AE2A91E06116E00A50A0A /* NSUserDefaultsUITests.swift */; };
+		C433D5871E0955C800E67525 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433D5861E0955C800E67525 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C42AE2A51E06116E00A50A0A /* NSUserDefaultsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUserDefaultsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42AE2A91E06116E00A50A0A /* NSUserDefaultsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsUITests.swift; sourceTree = "<group>"; };
 		C42AE2AB1E06116E00A50A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C433D5861E0955C800E67525 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C42AE2891E06116D00A50A0A /* AppDelegate.swift */,
 				C42AE28B1E06116D00A50A0A /* ViewController.swift */,
+				C433D5861E0955C800E67525 /* Extension.swift */,
 				C42AE28D1E06116D00A50A0A /* Main.storyboard */,
 				C42AE2901E06116D00A50A0A /* Assets.xcassets */,
 				C42AE2921E06116D00A50A0A /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				C42AE28C1E06116D00A50A0A /* ViewController.swift in Sources */,
 				C42AE28A1E06116D00A50A0A /* AppDelegate.swift in Sources */,
+				C433D5871E0955C800E67525 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				C42AE2B01E06116E00A50A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42AE2B11E06116E00A50A0A /* Build configuration list for PBXNativeTarget "NSUserDefaultsTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				C42AE2B31E06116E00A50A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C42AE2B41E06116E00A50A0A /* Build configuration list for PBXNativeTarget "NSUserDefaultsUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				C42AE2B61E06116E00A50A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
